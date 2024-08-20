@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">+504 ####-####</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                    <h1 class="logo"><a href="#">Perfumes</a></h1>
+                </div>
+                
+                    <!-- Prueba carrito -->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg " id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="carrito.html" class="btn-2">Comprar</a>
+                            <a href="#" id="vacia-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                    <!-- Fin de la prueba carrito -->
+                
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#Productos">Fragancias</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                    
+
+                </ul>
+
+                
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="content-banner">
+            <p>Tienda de Perfumes</p>
+            <h2>100% Originales</h2>
+            
+        </div>
+    </section>
+
+    <!-- Tarjetas -->
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-plane-up"></i>
+                <div class="feature-content">
+                    <span>Envio gratuito a nivel Nacional</span>
+                    <p>En pedido superior a L.3000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+            <i class="fa-solid fa-wallet"></i>
+            <div class="feature-content">
+                <span>Contrareembolso</span>
+                <p>100% garantia de devolucion de dinero</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="card-feature">
+        <i class="fa-solid fa-gift"></i>
+        <div class="feature-content">
+            <span>Tarjeta de regalo especial</span>
+            <p>Ofrecemos bonos especiales con regalo</p>
+        </div>
+        </div>
+    </div>
+    <div class="card-feature">
+    <i class="fa-solid fa-headset"></i>
+    <div class="feature-content">
+        <span>Servicio al cliente 24/7</span>
+        <p>Llamenos 24/7 al +504 ####-####</p>
+    </div>
+    </div>
+</div>
+        </section>
+
+        <!-- Categorias -->
+        <section class="container top-categories">
+            <h1 class="heading-1">Categorias </h1>
+            <div class="container-categories">
+                <div class="card-category category-Hombre">
+                    <p>Perfumes para Hombre</p>
+                    <span><a href="catalogoH.html" id="link-sin-subrayado">Ver más</a></span>
+                </div>
+                <div class="card-category category-Mujer">
+                    <p>Perfumes para Mujer</p>
+                    <span><a href="catalogoM.html" id="link-sin-subrayado">Ver más</span></a> 
+                </div>
+            </div>
+        </section>
+
+        
+            <!-- Titulo de los Productos -->
+            <h1 class="heading-1" id="Productos">Todos los productos</h1>            
+            <!-- PRODUCTO 1 -->
+            <main class="products container" id="lista-1">
+                <div class="product">
+                    <img src="imagenes/Nautica-Voyage.jpg" alt="">
+                    <div class="product-txt">
+                        <h3>Nautica Voyage </h3>
+                        <p>EDT / 100ml</p>
+                        <p class="precio">L.1908.00</p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="Nautica Voyage 100ml">Agregar al Carrito</a>
+                    </div>
+                </div>
+            
+                <!-- Producto 2 -->
+                <div class="product">
+                    
+                    <img src="imagenes/Versace-eros-100ml.webp  " alt="">
+                    <div class="product-txt">
+                        <h3>Versaje Eros EDT (M) </h3>
+                        <p>100ml</p>
+                        <p class="precio">L.2150.00</p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="Versaje Eros EDT (M) / 100ml">Agregar al Carrito</a>
+                    </div>
+                </div>
+            
+                <!-- Prducto 3 -->
+                <div class="product">
+                    <img src="imagenes/Paco-Rabanne-1-Million-EDT-M-100-ml.webp " alt="">
+                    <div class="product-txt">
+                        <h3>Paco Rabanne 1 Million</h3>
+                        <p>EDP 100ml</p>
+                        <p class="precio">L.2761.00</p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne 1 Million EDT (M)">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product">
+                    <img src="imagenes/Azzaro-themostwanted.webp" alt="">
+                    <div class="product-txt">
+                        <h3>Azzaro the most wanted</h3>
+                        <p>EDP 50ml</p>
+                        <p class="precio">L.2247.00</p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="Azzaro the most wanted EDP (M)">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+<!-- Filas adicionales ocultas -->
+<div id="hiddenRows" style="display: none;">
+    <div class="products-container">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="imagenes/Dolce&G100ml.jpg" alt="">
+            <div class="product-txt">
+                <h3>Dolce & Gabana</h3>
+                <p>100ml</p>
+                <p class="precio">L.2300.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Dolce & Gabana">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="imagenes/giorgio-armani-acqua-di-gioia-perfume-mujer-600x600.jpg" alt="">
+            <div class="product-txt">
+                <h3>Giorgio Armani Acqua Di Gioia de mujer</h3>
+                <p>100ml</p>
+                <p class="precio">L.2600.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Giorgio Armani Acqua Di Gioia de mujer">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="imagenes/missdiorbloomingbouquet.webp" alt="">
+            <div class="product-txt">
+                <h3>Miss Dior Blooming Bouquet </h3>
+                <p>EDT / 100ml</p>
+                <p class="precio">L.2700.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Miss Dior Blooming Bouquet">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product">
+            <img src="imagenes/Gucci-Guilty90ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Gucci Guilty </h3>
+                <p>90ml</p>
+                <p class="precio">L.3100.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Gucci Guilty">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Aquolina-Pink-Sugar-EDT-W-100-ml_a82b9b65-a48a-42cf-ad3f-79ff003ecd67.webp" alt="">
+            <div class="product-txt">
+                <h3>Aquolina Pink Sugar </h3>
+                <p>EDT (M) / 100ml</p>
+                <p class="precio">L.900.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Aquolina Pink Sugar">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-Bad-Boy-EDT-M-50-ml_b110ae4a-2eda-4307-b48e-a4544805772a.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera Bad Boy</h3>
+                <p>EDT (M) / 50ml</p>
+                <p class="precio">L.2400.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera Bad Boy">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 7 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Calvin-Klein-CK-One-EDT-U-200-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Calvin Klein CK one </h3>
+                <p>EDT (U) / 200ml</p>
+                <p class="precio">L.900.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Aquolina Pink Sugar">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 8 -->
+        <div class="product">
+            <img src="imagenes/3351500017485-1-600x600.jpg" alt="">
+            <div class="product-txt">
+                <h3>Azzaro Wanted Girl Tonic</h3>
+                <p>EAU / 80ml</p>
+                <p class="precio">L.1750.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Azzaro Wanted Girl Tonic">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 9 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Azzaro-Wanted-Girl-By-Night-EDP-W-80-ml-2.webp" alt="">
+            <div class="product-txt">
+                <h3>Azzaro Wanted Girl By Night</h3>
+                <p>EDP / 80ml</p>
+                <p class="precio">L.3443.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Azzaro Wanted Girl Night">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 10 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-212-VIP-EDP-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera 212 VIP</h3>
+                <p>EDP / 80ml</p>
+                <p class="precio">L.3521.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera 212 VIP">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 11 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-Divine-EDP-W-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Jean Paul Gaultier Divine</h3>
+                <p>EDP / 100ml</p>
+                <p class="precio">L.4580.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Jean Paul Gaultier Divine">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 12 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-Le-Beau-Paradise-Garden-EDP-M-75-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Jean Paul Gaultier Le Beau Paradise Garden</h3>
+                <p>EDP / 75ml</p>
+                <p class="precio">L.2281.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Jean Paul Gaultier Paradise Garden">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 13 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Invictus-Victory-Elixir-Parfum-M-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Invictus Victory Elixir</h3>
+                <p>Parfum (M) 100ml</p>
+                <p class="precio">L.3600.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Invictus Victory Elixir">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 14 -->
+        <div class="product">
+            <img src="imagenes/Perfume-Perry-Ellis-360-Women-EDT-W-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Perry Ellis 360 Women</h3>
+                <p>EDT (W) / 100 ml</p>
+                <p class="precio">L.1065.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Perry Ellis 360 Women">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 15-->
+        <div class="product">
+            <img src="imagenes/Perfume-Lancome-Tresor-La-Nuit-EDP-W-75-ml_5a2dc2ca-5d13-4a2a-82de-5ae21406dd40.webp" alt="">
+            <div class="product-txt">
+                <h3>Lancôme Tresor La Nuit</h3>
+                <p>EDP (W) / 75 ml</p>
+                <p class="precio">L.4345.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Lancôme Tresor La Nuit">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 16-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Fame-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Fame</h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.2645.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Fame">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 17-->
+        <div class="product">
+            <img src="imagenes/Perfume-Nautica-Blue-EDT-M-100-ml_3561bd1a-1c3b-46ad-bc8a-8c3b7ae70a0c.webp" alt="">
+            <div class="product-txt">
+                <h3>Nautica Blue</h3>
+                <p>EDT / 100ml</p>
+                <p class="precio">L.940.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Nautica Blue">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 18-->
+        <div class="product">
+            <img src="imagenes/Perfume-Versace-Eros-Flame-EDP-M-100-ml_d21e510b-3827-46f3-8e0d-9dfaa3f87943.webp" alt="">
+            <div class="product-txt">
+                <h3>Versace Eros Flame</h3>
+                <p>EDP (M) / 100ml</p>
+                <p class="precio">L.2465.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Versace Eros Flame">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 19-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Phantom-Parfum-M-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Phantom </h3>
+                <p>Parfum (M) / 50ml</p>
+                <p class="precio">L.2643.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Phantom Parfum">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 20-->
+        <div class="product">
+            <img src="imagenes/Perfume-Azzaro-The-Most-Wanted-Parfum-M-100-ml_0297f1ce-31a6-4982-9958-790bd88b4556.webp" alt="">
+            <div class="product-txt">
+                <h3>Azzaro The Most Wanted</h3>
+                <p>Parfum (M) / 100ml</p>
+                <p class="precio">L.2643.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Phantom Parfum">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 21-->
+        <div class="product">
+            <img src="imagenes/Perfume-Azzaro-Wanted-By-Night-EDP-M-100-ml_bafc4afe-58d1-4c1a-86d1-7bae4445134e.webp" alt="">
+            <div class="product-txt">
+                <h3>Azzaro Wanted By Night</h3>
+                <p>EDP (M) / 100ml</p>
+                <p class="precio">L.2937.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Azzaro Wanted By Night">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 22-->
+        <div class="product">
+            <img src="imagenes/Perfume-Nautica-Classic-EDT-M-100-ml_72aafd6e-c15d-4780-98e0-dcc199978aa5.webp" alt="">
+            <div class="product-txt">
+                <h3>Nautica Classic </h3>
+                <p>EDT (M) / 100 ml</p>
+                <p class="precio">L.940.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Nautica Classic">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 23-->
+        <div class="product">
+            <img src="imagenes/Perfume-Versace-Pour-Homme-Oud-Noir-EDP-M-100-ml_5cf7e327-2986-4245-9f19-2deb9acf8d4c.webp" alt="">
+            <div class="product-txt">
+                <h3>Versace Pour Homme Oud Noir</h3>
+                <p>EDP (M) / 100 ml</p>
+                <p class="precio">L.2456.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Versace Pour Homme Oud Noir ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 24-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Invictus-Parfum-M-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Invictus</h3>
+                <p>Parfum (M) / 50 ml</p>
+                <p class="precio">L.2416.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Invictus ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 25-->
+        <div class="product">
+            <img src="imagenes/Perfume-Azzaro-Wanted-EDT-M-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Azzaro Wanted</h3>
+                <p>EDT (M) / 50 ml</p>
+                <p class="precio">L.1952.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Azzaro Wanted">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 26-->
+        <div class="product">
+            <img src="imagenes/Perfume-Versace-L-Homme-EDT-M-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Versace L Homme</h3>
+                <p>EDT (M) / 100 ml</p>
+                <p class="precio">L.1252.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Versace L Homme">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 27-->
+        <div class="product">
+            <img src="imagenes/Perfume-Nautica-Voyage-Sport-EDT-M-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Nautica Voyage Sport</h3>
+                <p>EDT (M) / 100 ml</p>
+                <p class="precio">L.985.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Nautica Voyage Sport">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 28-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-212-VIP-Black-EDP-M-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera 212 VIP Black</h3>
+                <p>EDP (M) / 100 ml</p>
+                <p class="precio">L.3147.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera 212 VIP Black">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 29-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-Bad-Boy-Cobalt-EDP-M-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera Bad Boy Cobalt</h3>
+                <p>EDP (M) / 100 ml</p>
+                <p class="precio">L.3476.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera Bad Boy Cobalt">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 30-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-212-VIP-Black-EDP-M-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera 212 VIP Black</h3>
+                <p>EDP (M) / 50 ml</p>
+                <p class="precio">L.2356.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera 212 VIP Black">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 31-->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-Le-Beau-EDT-M-125-ml_b99887ff-8dd4-4d1d-bcb6-73aa115fd286.webp" alt="">
+            <div class="product-txt">
+                <h3>Jean Paul Gaultier Le Beau</h3>
+                <p>EDT (M) / 125 ml</p>
+                <p class="precio">L.3256.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Jean Paul Gaultier Le Beau">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 32-->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-Le-Male-Elixir-EDP-M-125-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Jean Paul Gaultier Le Male Elixir</h3>
+                <p>EDP (M) / 125 ml</p>
+                <p class="precio">L.3700.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Jean Paul Gaultier Le Male Elixir">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 33-->
+        <div class="product">
+            <img src="imagenes/Perfume-Dolce-Gabbana-Q-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Dolce & Gabbana Q </h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.3300.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Dolce & Gabbana Q ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 34-->
+        <div class="product">
+            <img src="imagenes/Perfume-Giorgio-Armani-My-Way-EDP-W-90-ml_191eec1c-17f4-4473-8001-ed234a27730a.webp" alt="">
+            <div class="product-txt">
+                <h3>Giorgio Armani My Way </h3>
+                <p>EDP (W) / 90 ml</p>
+                <p class="precio">L.4859.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Giorgio Armani My Way">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 35-->
+        <div class="product">
+            <img src="imagenes/Perfume-Giorgio-Valenti-Rose-Noire-Absolue-EDP-W-100-ml_aaef34e8-6d12-40dd-b4f9-8756fe83c1e4.webp" alt="">
+            <div class="product-txt">
+                <h3>Giorgio Valenti Rose Noire Absolue</h3>
+                <p>EDP (W) / 100 ml</p>
+                <p class="precio">L.695.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Giorgio Valenti Rose Noire Absolue">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 36-->
+        <div class="product">
+            <img src="imagenes/Perfume-Giorgio-Armani-My-Way-Nectar-EDP-W-90-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Giorgio Armani My Way Nectar</h3>
+                <p>EDP (W) / 90 ml</p>
+                <p class="precio">L.695.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Giorgio Armani My Way Nectar">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 37-->
+        <div class="product">
+            <img src="imagenes/Perfume-Dolce-Gabbana-Devotion-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Dolce & Gabbana Devotion</h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.3559.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Dolce & Gabbana Devotion">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 38-->
+        <div class="product">
+            <img src="imagenes/Perfume-Dolce-Gabbana-The-One-Gold-EDP-W-75-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Dolce & Gabbana The One Gold </h3>
+                <p>EDP (W) / 75 ml</p>
+                <p class="precio">L.4460.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Dolce & Gabbana The One Gold ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 39-->
+        <div class="product">
+            <img src="imagenes/Perfume-Gucci-Bamboo-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Gucci Bamboo </h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.4460.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Gucci Bamboo">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 40-->
+        <div class="product">
+            <img src="imagenes/Perfume-Gucci-Bloom-EDP-W-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Gucci Bloom</h3>
+                <p>EDP (W) / 100 ml</p>
+                <p class="precio">L.5513.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Gucci Bloom">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 41-->
+        <div class="product">
+            <img src="imagenes/Perfume-Gucci-Flora-Gorgeous-Jasmine-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Gucci Flora Gorgeous Jasmine </h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.4357.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Gucci Bloom">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 42-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-Good-Girl-EDP-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera Good Girl </h3>
+                <p>EDP (W) / 80 ml</p>
+                <p class="precio">L.3967.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera Good Girl">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 43-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-Good-Girl-Legere-EDP-W-80-ml_4213ba32-00d8-488d-8792-97cc078ea439.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera Good Girl Legere</h3>
+                <p>EDP (W) / 80 ml</p>
+                <p class="precio">L.3969.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera Good Girl Legere">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 44-->
+        <div class="product">
+            <img src="imagenes/Perfume-Carolina-Herrera-212-Heroes-For-Her-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Carolina Herrera 212 Heroes For Her</h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.2569.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Carolina Herrera 212 Heroes For Her">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 44-->
+        <div class="product">
+            <img src="imagenes/w=1500,h=1500,fit=pad.avif" alt="">
+            <div class="product-txt">
+                <h3>Azzaro Wanted Girl</h3>
+                <p>EDP / 80 ml</p>
+                <p class="precio">L.2569.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Azzaro Wanted Girl">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 45-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Lady-Million-EDP-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Lady Million</h3>
+                <p>EDP (W) / 80 ml</p>
+                <p class="precio">L.3395.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Lady Million">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 46-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Lady-Million-EDP-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Lady Million</h3>
+                <p>EDP (W) / 80 ml</p>
+                <p class="precio">L.3395.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Lady Million">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 47-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Fame-Intense-EDP-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Fame Intense</h3>
+                <p>EDP (W) / 80 ml</p>
+                <p class="precio">L.3073.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Fame Intense">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 48-->
+        <div class="product">
+            <img src="imagenes/Perfume-Paco-Rabanne-Black-XS-for-Her-LExces-EDP-W-50-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Paco Rabanne Black XS for Her L'Exces</h3>
+                <p>EDP (W) / 50 ml</p>
+                <p class="precio">L.1715.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Paco Rabanne Black XS for Her L'Exces">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 49-->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-Scandal-Absolu-Parfum-W-80-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>Jean Paul Gaultier Scandal Absolu </h3>
+                <p>Parfum (W) / 80 ml</p>
+                <p class="precio">L.4237.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="Jean Paul Gaultier Scandal Absolu ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 50-->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-La-Belle-Paradise-Garden-EDP-W-100-ml.webp" alt="">
+            <div class="product-txt">
+                <h3>jean Paul Gaultier La Belle Paradise Garden</h3>
+                <p>EDP (W) / 100 ml</p>
+                <p class="precio">L.3437.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="jean Paul Gaultier La Belle Paradise Garden ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <!-- Producto 51-->
+        <div class="product">
+            <img src="imagenes/Perfume-Jean-Paul-Gaultier-La-Belle-EDP-W-100-ml_6178c6d6-a3e8-43cd-a334-ccf4e26dc0f7.webp" alt="">
+            <div class="product-txt">
+                <h3>jean Paul Gaultier La Belle</h3>
+                <p>EDP (W) / 100 ml</p>
+                <p class="precio">L.3531.00</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="jean Paul Gaultier La Belle ">Agregar al Carrito</a>
+            </div>
+        </div>
+
+
+        <!-- Fin de los Productos -->
+    </div>
+</div>
+
+        </section>
+    </main>
+
+    <!-- Botón para mostrar y ocultar filas -->
+    <div class="button-container">
+        <button id="showMoreButton" onclick="toggleRows()">Mostrar Más</button>
+    </div>
+
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Informacion de Contacto</p>
+                    <ul>
+                        <li>Direccion: Choloma, Cortes. Honduras</li>
+                        <li>Telefono: +504 ####-####</li>
+                        <li>Email: Perfumes@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook" >
+                        <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></a></i></span>
+                        
+                        <span class="instagram" ></a>
+                        <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></a></i></span>
+                        
+                        <span class="threads" >
+                        <a href="https://www.threads.net/?hl=es-la"> <i class="fa-brands fa-threads"></a></i></span>
+                        
+                        <span class="X-twitter" >
+                        <a href="https://x.com/?lang=es"> <i class="fa-brands fa-x-twitter"></a></i></span>
+                        
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Perfumes</p>
+                    <ul>
+                        <li><a href="catalogoH.html">Perfumes para Hombre</a></li>
+                        <li><a href="catalogoM.html">Perfumes para Mujer</a></li>
+                    </ul>
+                </div>
+
+
+                
+
+            </div>
+        </div>
+        <div class="copyright">
+            <P>
+                Desarrollado por F.I.M.H &copy; 2024
+            </P>
+
+            <img src="imagenes/payment (1).png" alt="Pagos">
+            
+        </div>
+    </footer>
+
+
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/e394427575.js" 
+    crossorigin="anonymous"
+    ></script>
+    <!-- funcion del boton ver mas o menos  -->
+    <script>
+        function toggleRows() {
+            var hiddenRows = document.getElementById("hiddenRows");
+            var showMoreButton = document.getElementById("showMoreButton");
+    
+            if (hiddenRows.style.display === "none") {
+                hiddenRows.style.display = "block";
+                showMoreButton.textContent = "Mostrar Menos";
+            } else {
+                hiddenRows.style.display = "none";
+                showMoreButton.textContent = "Mostrar Más";
+            }
+        }
+    </script>
+
+<!-- Conexion JS -->
+<script src="Java.js"></script>
+
+
+
+</body>
+</html>

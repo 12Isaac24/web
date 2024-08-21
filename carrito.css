@@ -124,3 +124,52 @@ img {
 .remove-item:focus {
     outline: none;
 }
+
+@media (max-width:480px){
+    .container {
+        background: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+table {
+    width: 0%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight:100;
+}
+
+
+    img {
+        max-width: 50px;
+        border-radius: 3px;
+    }
+    
+    .total-container {
+        text-align: right;
+        margin-bottom: 20px;
+        font-size: 1em;
+        width: 50%;
+    }
+}
